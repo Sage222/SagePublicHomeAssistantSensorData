@@ -4,9 +4,6 @@ Expose some sensors to the internet publicly. (No auth required)  I wont go into
 
 This allows you to then configure Google Gemini to obtain your sensor data via Gemini.
 
-Login to Gemini and add a "personal context" like this:
-When I say "Get HA Data" then a sensor name, you should go to this website http://EXTERNALIP/DNS:8123/local/ha_data.json and tell me the value of the sensor.
-
 
 Examples below use 3 of my sensors. Inverter, powerpal & battery. Update them to use your own.
 
@@ -40,6 +37,12 @@ shell_command:
 
 
 Step 3: Reboot Home Assistant.
+
+
+Step 4: Configure Google Gemini!
+
+Login to Gemini and add a "personal context" like this:
+When I say "Get HA Data" then a sensor name, you should go to this website http://EXTERNALIP/DNS:8123/local/ha_data.json and tell me the value of the sensor.
 
 Access the sensor data from here:
 http://ExternalIP:PORT/local/ha_data.json
