@@ -1,3 +1,4 @@
+
 # SagePublicHomeAssistantSensorData
 Expose some sensors to the internet publicly. (No auth required)  I wont go into Port Forwarding i assume you have already done this.
 
