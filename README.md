@@ -1,6 +1,6 @@
 
 # SagePublicHomeAssistantSensorData
-Expose some sensors to the internet publicly. (No auth required)  I wont go into Port Forwarding i assume you have already done this.
+Expose some sensors to the internet publicly. (No auth required)  I wont go into Port Forwarding on your router i assume you have already done this.
 
 This allows you to then configure Google Gemini to obtain your sensor data via Gemini.
 
