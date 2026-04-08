@@ -1,4 +1,4 @@
-
+```
 # SagePublicHomeAssistantSensorData
 Expose some sensors to the internet publicly. (No auth required)  I wont go into Port Forwarding on your router i assume you have already done this.
 
@@ -46,3 +46,4 @@ When I say "Get HA Data" then a sensor name, you should go to this website http:
 
 Access the sensor data from here:
 http://ExternalIP:PORT/local/ha_data.json
+```
