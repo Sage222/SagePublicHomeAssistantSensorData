@@ -37,11 +37,20 @@ shell_command:
     "{{ states('input_number.ch_battery') }}" 
     "{{ now().strftime('%Y-%m-%d %H:%M:%S') }}"
 
+Step 3. Update automations.yaml
+  mode: single
+- id: refresh_dashboard_json
+  alias: Refresh public dashboard JSON
+  triggers:
+  - minutes: /2
+    trigger: time_pattern
+  actions:
+  - action: shell_command.write_dashboard_json
 
-Step 3: Reboot Home Assistant.
+Step 4: Reboot Home Assistant.
 
 
-Step 4: Configure Google Gemini!
+Step 5: Configure Google Gemini!
 
 Login to Gemini and add a "personal context" like this:
 When I say "Get HA Data" then a sensor name, you should go to this website http://EXTERNALIP/DNS:8123/local/ha_data.json and tell
