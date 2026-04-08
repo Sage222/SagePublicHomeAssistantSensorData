@@ -44,7 +44,8 @@ Step 3: Reboot Home Assistant.
 Step 4: Configure Google Gemini!
 
 Login to Gemini and add a "personal context" like this:
-When I say "Get HA Data" then a sensor name, you should go to this website http://EXTERNALIP/DNS:8123/local/ha_data.json and tell me the value of the sensor.
+When I say "Get HA Data" then a sensor name, you should go to this website http://EXTERNALIP/DNS:8123/local/ha_data.json and tell
+ me the value of the sensor.
 
 Access the sensor data from here:
 http://ExternalIP:PORT/local/ha_data.json
