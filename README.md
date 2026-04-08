@@ -8,7 +8,7 @@ This allows you to then configure Google Gemini to obtain your sensor data via G
 Examples below use 3 of my sensors. Inverter, powerpal & battery. Update them to use your own.
 
 
-Step 1: Create the Shell Script
+Step 1: Create the Shell Script 
 You need a physical script file to handle the file writing. This bypasses the Home Assistant template restriction.
 
 Use the File Editor or SSH to create a file at /config/www/write_json.sh.
