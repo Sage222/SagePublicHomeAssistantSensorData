@@ -56,6 +56,8 @@ Login to Gemini and add a "personal context" like this:
 When I say "Get HA Data" then a sensor name, you should go to this website http://EXTERNALIP/DNS:8123/local/ha_data.json and tell
  me the value of the sensor.
 
+I just noticed that Gemini works better at responding on "Fast" mode. Rather than "thinking" mode. Thinking mode seems to think it cant do it. lol. Though fast mode works.
+
 Access the sensor data from here:
 http://ExternalIP:PORT/local/ha_data.json
 ```
